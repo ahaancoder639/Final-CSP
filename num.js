@@ -53,7 +53,7 @@ RanButton1.onclick = function(){
         ResultElement2.textContent="C:N ratio is too low";
     }
 
-    if(tem<= 71 && tem >= 49){
+    if(tem>= 41 && tem<=71){
         ResultElement3.textContent="Temperature is suitable";
     }
 
